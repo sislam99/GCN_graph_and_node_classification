@@ -77,7 +77,7 @@ def plot_roc_curve(y_true, y_probs, num_classes):
     plt.title("ROC Curve")
     plt.legend(loc="lower right")
     plt.show()
-
+ 
 # Plot Confusion Matrix
 def plot_confusion_matrix(y_true, y_pred, num_classes):
     cm = confusion_matrix(y_true, y_pred)
