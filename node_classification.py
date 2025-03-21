@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
+import torch.nn.functional as F 
 from torch_geometric.datasets import Planetoid
 import torch_geometric.transforms as T
 from sklearn.manifold import TSNE
